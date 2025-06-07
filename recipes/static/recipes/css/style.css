@@ -114,17 +114,17 @@ h6 {
     right: 0;
 }
 
-    .search-input {
+.search-input {
     width: 100%;
     padding-right: 3rem ;
     }
 
-    .search-button:focus {
+.search-button:focus {
     outline: 1px solid var(--color-primary);
     background: rgba(0, 0, 0, .05)
 }
 
-    .search-form:focus-within {
+.search-form:focus-within {
     border-color: var(--color-primary);
     background-color: var(--color-white);
     }
@@ -216,6 +216,20 @@ color: var(--color-primary);
     color: var(--color-dark-text);
     margin-bottom: 1rem;
 }
+
+.main-content-detail .recipe-list-item  {
+    max-width: 84rem;
+    margin: 0 auto;
+}
+
+
+
+.main-content-detail .recipe-list-item:hover {
+    transform: scale(1);
+    box-shadow: -5px 5px 18px rgba(0, 0, 0, 0.2);
+    
+}
+
 
 .recipe-footer a{
     background-color: var(--color-primary-dark);
