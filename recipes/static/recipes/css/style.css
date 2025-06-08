@@ -1,4 +1,3 @@
-
 :root {
     --color-primary: #269fe6;
     --color-primary-hover: #2086c2;
@@ -158,7 +157,7 @@ color: var(--color-primary);
 
 .recipe-list-item {
     max-width: 64rem;
-
+    height: fit-content;
 }
 
 .recipe-list-item:hover {
@@ -170,6 +169,11 @@ color: var(--color-primary);
 .recipe-title-container {
     padding: var(--spacing-gutter-medium);
     padding-bottom: 2rem;
+}
+
+.recipe-title-container a {
+    text-decoration: none;
+    color: var(--color-primary-dark);
 }
 
 .recipe-author{
@@ -243,6 +247,10 @@ color: var(--color-primary);
 
 .recipe-footer a:hover {
     filter: brightness(2);
+}
+
+.preparation_steps {
+    padding: var(--spacing-gutter-medium);
 }
 
 .main-footer {
